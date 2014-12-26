@@ -45,11 +45,6 @@ char* gscanf(int y, int x , int length){
 
 	noecho();
 
-	//inicializamos el contenido del arraya espacios en blanco
-	//y finalmente le ponemos un \0 para indicarle el fin de cadena
-	//ya que estamos trabajando a bajo nivel
-
-
 	//Here we fill our array with white spaces
 	//the same with the finalValue array
 	for (int i = 0 ; i < length -1 ; i++){
