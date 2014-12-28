@@ -221,10 +221,11 @@ char* gscanf(int y, int x , int length){
 		}
 		else if (key == ENTER) {
 			//if we press ENTER we return the pointer where is our array
-			return value; //Pointer;
 
 			//char* valuePointer;
 			//valuePointer = value;
+			return value; //Pointer;
+
 			//return strcpy(finalValue,value);
 		}
 
