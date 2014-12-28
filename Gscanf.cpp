@@ -277,9 +277,8 @@ int main(){
 
 		//when we have the result , we write on the screen
 		move(1,1);
-		printw("THE RESULT ISss %s ", final);
-		//printw("THE RESULT IS %s ", wordResult);
-
+		printw("THE RESULT IS %s ", final);
+		
 		
 
 getch();
